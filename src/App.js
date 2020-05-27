@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.sass';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
 
       <input type="checkbox" value="gregory" />
       <p>I</p>
-      
+
       <input type="checkbox" value="gregory" />
       <p>Exist</p>
     </div>
