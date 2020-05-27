@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <div className="container">
         <Form>
-          <fieldset>
             <Form.Group as={Row}>
               <Form.Label as="legend" column sm={2}>
               </Form.Label>
@@ -35,11 +34,10 @@ function App() {
                   type="radio"
                   label="fourth radio"
                   name="formHorizontalRadios"
-                  id="formHorizontalRadios4"
+                  id="formHorizontalRadios3"
                 />
           </Col>
         </Form.Group>
-      </fieldset>
     </Form>
       </div>
     </div>
