@@ -1,21 +1,46 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form';
+import ReactDOM from 'react-dom';
+import { Row, Col, Form} from 'react-bootstrap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <>
-          <Form.Check type="radio" aria-label="radio 1" />
-          <p>radio 1</p>
-          <Form.Check type="radio" aria-label="radio 2" />
-          <p>radio 2</p>
-          <Form.Check type="radio" aria-label="radio 3" />
-          <p>radio 3</p>
-          <Form.Check type="radio" aria-label="radio 4" />
-          <p>radio 4</p>
-        </>
+        <Form>
+          <fieldset>
+            <Form.Group as={Row}>
+              <Form.Label as="legend" column sm={2}>
+              </Form.Label>
+              <Col sm={10}>
+                <Form.Check
+                  type="radio"
+                  label="first radio"
+                  name="formHorizontalRadios"
+                  id="formHorizontalRadios1"
+                />
+                <Form.Check
+                  type="radio"
+                  label="second radio"
+                  name="formHorizontalRadios"
+                  id="formHorizontalRadios2"
+                />
+                <Form.Check
+                  type="radio"
+                  label="third radio"
+                  name="formHorizontalRadios"
+                  id="formHorizontalRadios3"
+                />
+                <Form.Check
+                  type="radio"
+                  label="fourth radio"
+                  name="formHorizontalRadios"
+                  id="formHorizontalRadios4"
+                />
+          </Col>
+        </Form.Group>
+      </fieldset>
+    </Form>
       </div>
     </div>
   );
