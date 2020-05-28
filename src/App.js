@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="radios">
         <Form>
             <Form.Group as={Row}>
               <Form.Label as="legend" column sm={2}>
