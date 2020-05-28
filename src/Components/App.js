@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Form} from 'react-bootstrap';
-import './App.css';
+import '../App.css';
 
 function App() {
   return (
