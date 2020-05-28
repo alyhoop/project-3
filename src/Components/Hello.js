@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import '../Hello.css'
+import '../Styles/Hello.css'
 
 function Hello() {
   const date = new Date()
