@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import '../Hello.css'
 
 function Hello() {
   const date = new Date()
@@ -15,7 +16,7 @@ function Hello() {
   }
 
   return (
-    <h1 style={{color: "rgb(232, 211, 100)"}}>Good {timeOfDay}!</h1>
+    <h1 className="hello">Good {timeOfDay}!</h1>
   )
 }
 
