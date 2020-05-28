@@ -36,9 +36,9 @@ function App() {
                   name="formHorizontalRadios"
                   id="formHorizontalRadios3"
                 />
-          </Col>
-        </Form.Group>
-    </Form>
+              </Col>
+            </Form.Group>
+        </Form>
       </div>
     </div>
   );
